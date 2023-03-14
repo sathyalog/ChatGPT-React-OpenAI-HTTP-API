@@ -29,7 +29,7 @@ function ChattyApp() {
       <button className="button" onClick={handleClick}>
         Get Details
       </button>
-      {completedSentence && <p>Completed sentence: {completedSentence}</p>}
+      {completedSentence && <div>CHATGPT Response: {completedSentence}</div>}
     </div>
   );
 }
