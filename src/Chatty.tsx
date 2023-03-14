@@ -27,7 +27,7 @@ function ChattyApp() {
       <br />
       <br />
       <button className="button" onClick={handleClick}>
-        Complete Sentence
+        Get Details
       </button>
       {completedSentence && <p>Completed sentence: {completedSentence}</p>}
     </div>
